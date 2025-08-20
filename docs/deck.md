@@ -17,6 +17,8 @@ backgroundColor: #0b1020
 
 > Version-controlled, reproducible, and exportable to HTML/PDF/PPTX
 
+---
+
 <!--
 _class: lead
 backgroundImage: url('assets/background.png')
@@ -24,6 +26,9 @@ _backgroundSize: cover
 _backgroundPosition: center
 -->
 
+# Architecture at a Glance
+
+*Use a bold background to introduce a system diagram or platform overview.*
 
 ---
 
@@ -33,15 +38,3 @@ _backgroundPosition: center
 - Fully **version-controlled** in Git (diffable, reviewable)
 - **Custom theme** + CSS variables for brand alignment
 - **Math**, **code highlighting**, and **background images**
-
-**Build commands** (run from repo root):
-
-```bash
-# HTML
-npx @marp-team/marp-cli docs/deck.md -o dist/deck.html --allow-local-files
-
-# PDF (requires Chrome/Chromium installed)
-npx @marp-team/marp-cli docs/deck.md -o dist/deck.pdf --allow-local-files
-
-# PowerPoint
-npx @marp-team/marp-cli docs/deck.md -o dist/deck.pptx --allow-local-files
