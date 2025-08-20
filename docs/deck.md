@@ -17,6 +17,14 @@ backgroundColor: #0b1020
 
 > Version-controlled, reproducible, and exportable to HTML/PDF/PPTX
 
+<!--
+_class: lead
+backgroundImage: url('assets/background.png')
+_backgroundSize: cover
+_backgroundPosition: center
+-->
+
+
 ---
 
 ## Why Marp for Product Docs?
