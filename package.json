@@ -1,0 +1,15 @@
+{
+  "name": "marp-product-docs",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "build:html": "marp docs/deck.md -o dist/deck.html --allow-local-files",
+    "build:pdf": "marp docs/deck.md -o dist/deck.pdf --allow-local-files",
+    "build:pptx": "marp docs/deck.md -o dist/deck.pptx --allow-local-files",
+    "build": "npm run build:html && npm run build:pdf && npm run build:pptx",
+    "watch": "marp -w docs/deck.md -o dist/deck.html --allow-local-files"
+  },
+  "devDependencies": {
+    "@marp-team/marp-cli": "^3.4.0"
+  }
+}
